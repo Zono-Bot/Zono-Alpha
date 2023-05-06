@@ -1,0 +1,25 @@
+{
+  "name": "Zono",
+  "version": "1.0.0",
+  "description": "THE BEST AD-ON FOR YOUR SERVER! MORE THEN 10+ COMMANDS! -ZONO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@akarui/aoi.music": "^2.2.1",
+    "@akarui/aoi.panel": "^0.0.4",
+    "@types/node": "^18.0.6",
+    "aoi.db": "^1.1.0",
+    "aoi.js": "^6.2.6",
+    "discord.js": "^14.10.2",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6",
+    "quick.db": "^9.1.6",
+    "request-promise-native": "^1.0.9",
+    "smart-chatbot": "^1.4.0"
+  }
+}
