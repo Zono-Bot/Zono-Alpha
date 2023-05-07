@@ -88,5 +88,5 @@ Welcome @$usertag!
 `})
 
  bot.variables({
-wchannel: '1093935216814461098'
+wchannel: "1093935216814461098"
 })
