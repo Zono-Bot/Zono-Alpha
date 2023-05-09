@@ -25,6 +25,6 @@ $description[
 **!Report** - Found a bug? Use this command (!report <Aditya Sucks At Coding>)
 **Slap** - Need to slap someone? (!slap <@user>)
 **!Rc** - Shows a random country
-**!Colour** - Shows a random a colour (||Popcat Api might be down||)]
+**!Colour** - Shows a random a colour]
 $footer[Zono]`
 })

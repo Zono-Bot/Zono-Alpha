@@ -31,7 +31,7 @@ bot.interactionCommand({
 
 
 bot.status({
-    text: "!help",
+    text: "!help ($pingms)",
     type: "WATCHING",
     status: "Online",
     time: 12
@@ -84,9 +84,7 @@ $interactionReply[;{newEmbed:
 bot.joinCommand({ 
 channel: "$getGuildVar[wchannel]", 
 code: `
-Welcome @$usertag!
+Welcome @<$usertag>!
 `})
 
- bot.variables({
-wchannel: "1093935216814461098"
-})
+ 
