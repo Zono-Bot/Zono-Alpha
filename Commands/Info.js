@@ -9,7 +9,7 @@ $description[Zono Alpha is made in Aoj.js <:js:1095314562607231047>
   
   Members I serve: $allMembersCount <:mod:1095311799190048798>
 
-**Bot Version**: *2*
+**Bot Version**: *2.2*
 **Aoi.js Version**: *6.2.6*
 **Node Version**: *18.0.6*
 

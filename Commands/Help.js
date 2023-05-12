@@ -20,11 +20,14 @@ $description[
 **!Serverinfo** - Shows info about the server
 **!User** - Shows info of a user (!user <@user>)
 **!Law** - Sends a random Law 
-**!Status** - Shows the Ram and Stuff 
+**!Status** - Shows the Ram and Stuff (For nerds! XD)
 **!Rps** - Play Rock,Paper,Scissor with the bot (!rps <🗿,✂️,📃>) 
 **!Report** - Found a bug? Use this command (!report <Aditya Sucks At Coding>)
 **Slap** - Need to slap someone? (!slap <@user>)
 **!Rc** - Shows a random country
-**!Colour** - Shows a random a colour]
-$footer[Zono]`
+**!Colour** - Shows a random a colour
+**!Chat** - Chat with Dumb AI (!chat <message>)
+**!Set-welcome** - Sets the welcome (!set-welcome #<channel>)
+**!Remove-welcome** - Removes the welcome (!remove-welcome #<channel>) ||Still buggy||]
+$footer[Zono|$authorID|]`
 })

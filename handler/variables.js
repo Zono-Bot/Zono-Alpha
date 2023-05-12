@@ -10,13 +10,3 @@ variableName: "bump"
 }
 
 
-module.exports = (bot) => { 
- bot.variables({ 
-variableName: wchannel,
-variableName: 0,
-variableName: false,
-variableName: " "
- })
-}
-
-

@@ -79,12 +79,17 @@ $interactionReply[;{newEmbed:
 
 
 
-//Only for Zono Hub!
+//Welcome (MAIN)
 
 bot.joinCommand({ 
 channel: "$getGuildVar[wchannel]", 
 code: `
-Welcome @<$usertag>!
+$title[Welcome <@$authorID>!]
+$image[https://zono-api.dacooladi.repl.co/wc?avatar=$Useravatar&user=$username&discriminator=$discriminator[$authorID]
 `})
 
  
+
+ bot.variables({
+wchannel: " "
+})
