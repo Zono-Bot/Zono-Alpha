@@ -29,5 +29,5 @@ $description[
 **!Chat** - Chat with Dumb AI (!chat <message>)
 **!Set-welcome** - Sets the welcome (!set-welcome #<channel>)
 **!Remove-welcome** - Removes the welcome (!remove-welcome #<channel>) ||Still buggy||]
-$footer[Zono|$authorID|]`
+$footer[Requested by- $username]`
 })

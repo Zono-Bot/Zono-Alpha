@@ -4,6 +4,8 @@ module.exports = ({
   $title[Joke] 
   $description[
   $getObjectProperty[setup]
- $createObject[$httpRequest[https://official-joke-api.appspot.com/random_joke]`
+  $getObjectProperty[punchline]
+  
+  $createObject[$httpRequest[https://official-joke-api.appspot.com/random_joke]`
 })
 
