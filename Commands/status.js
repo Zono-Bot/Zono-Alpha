@@ -25,5 +25,6 @@ $endIf]
     $cooldown[4s;<@$authorID>, a little too quick there.{extraOptions:{delete: 3s}}]
     ;false]
     $reply[$messageID;false]
+    $footer[User **!info** for more info!]
     `
 })

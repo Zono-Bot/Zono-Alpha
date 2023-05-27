@@ -3,7 +3,7 @@ module.exports = ({
   code: `
   $title[8ball]
   $description[you asked for: \`$message\`
-  the answer: $randomText[Yes;No;Maybe;Ask again!;Nahhh;What?;?;]
+  the answer: $randomText[Yes;No;Maybe;Ask again!;Nahhh;What?;?]
   $color[Random]
 $onlyIf[$argsCount>=1;{newEmbed:
 {title:Error}

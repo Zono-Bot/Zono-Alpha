@@ -1,8 +1,9 @@
 const { AoiClient, LoadCommands } = require("aoi.js");
 
+
 const bot = new AoiClient({
     token: process.env.TOKEN,
-    prefix: "!",
+    prefix: "!", //You can change this!
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildBans", "GuildWebhooks", "GuildPresences", "GuildMembers"],
     events: ["onMessage", "onInteractionCreate", "onJoin"],
     database: {
@@ -31,9 +32,9 @@ bot.interactionCommand({
 
 
 bot.status({
-    text: "!help ($pingms)",
+    text: "!help",
     type: "WATCHING",
-    status: "Online",
+    status: "DND",
     time: 12
 });
 
@@ -41,7 +42,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send('Use Uptime robot to make your bot 24/7')
 })
 app.listen(3000)
 
@@ -64,7 +65,7 @@ $interactionReply[;{newEmbed:
 {color:Random}
   {author:$username:$userAvatar[$findUser[$slashOption[user];true]]}
   {title:$username[$findUser[$slashOption[user];true]]'s Info}
-  $thumbnail[$userAvatar[$findMember[$message]]]
+  $image[$userAvatar[$findMember[$message]]]
 {field:Username:\`$username[$findUser[$slashOption[user];true]]\`:true}
   {field:Nickname:\`$nickname[$findUser[$slashOption[user];true]]\`:true}
   {field:Tag:\`#$discriminator[$findUser[$slashOption[user];true]]\`:true}
