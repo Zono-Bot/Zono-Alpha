@@ -10,4 +10,4 @@ $argsCheck [>1; Please provide a username.]
 $onlyIf [$jsonRequest[https://api.roblox.com/users/get-by-username?username=$replaceText[$message; ; ];UserId; Error]!=Error; User not found. ]
 $onlyIf [ $message!=;Please provide a username.]
 $suppressErrors[An error occurred while executing the command.]`
-});
+}); //NOT FINISHED!
