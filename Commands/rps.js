@@ -2,7 +2,7 @@ module.exports = ({
   name: "rps",
   aliases: ['rockpaperscissors'],
   code: `
-$onlyIf[📄=$message;Your Play $message
+$onlyIf[📄!=$message;Your Play $message
 My play **$randomText[🗿;📄;✂️]**
 $onlyIf[🗿!=$message;Your Play $message
 My play **$randomText[🗿;📄;✂️]**
