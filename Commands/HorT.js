@@ -3,7 +3,7 @@ module.exports = ({
     aliases: ['HeadorTails'],
     code: `
 $title[Head Or Tails 👤🪙]
-$description[$randomtext[👤;🪙]]
+$description[It's $randomtext[👤;🪙]]
 $footer[👤 <- Head
 🪙 <- Tails]
 `
